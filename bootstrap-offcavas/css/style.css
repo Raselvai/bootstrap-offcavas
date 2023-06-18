@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	z-index: 999;
+	border-bottom: 1px solid #ffffff;
+}
+
+.logo {
+	font-size: 25px;
+	font-weight: 700;
+	color: #ffffff;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.logo:hover {
+	color: #f6f6f6;
+}
+
+.hamburger_menu {
+	color: #ffffff;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.menu li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: #000000;
+}
+
+.home_wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.video_ab {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+	z-index: -1;
+}
+
+.home_wrapper h2 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #ffffff;
+	display: block;
+}
